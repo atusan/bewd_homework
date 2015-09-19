@@ -1,0 +1,9 @@
+puts "Enter the name of an animal that makes a sound"
+name = gets.chomp
+puts "You entered " + name.downcase
+puts "What sound does a " + name.downcase + " make?"
+sound = gets.chomp
+puts "You entered " + sound.downcase
+puts "how many times " + name.downcase + " goes " +sound.downcase + " ? "
+times = gets.chomp.to_i
+puts " The " + name.downcase + " goes " + ( sound.downcase + "," )* (times) + "."
